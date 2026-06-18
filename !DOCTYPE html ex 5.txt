@@ -1,0 +1,30 @@
+# include <iostream>  
+#include <cmath>  
+using namespace std;
+int main() {
+  int a,b, choice;
+   cout<<"enter the value of a and b"<<endl;
+   cin>>a>>b;
+   cin>>choice;
+   switch (choice){
+      case 1:
+      cout<<"the addition of a and b"<<a+b<<endl;
+         break;
+      case 2:
+      cout<<"he subtraction of a and b"<<a-b<<endl;
+      break ;
+      case 3:
+      cout<<"the multiply a and b"<<a*b<<endl;
+      break ;
+      case 4:
+      if (b != 0) {
+         cout<<"the division of a and b"<<a/b<<endl;
+      } else {
+         cout<<"Division by zero error"<<endl;
+      }
+      break;
+      default:
+      cout<<"invalide operation"<<endl;
+   }
+   return 0;
+}

@@ -1,0 +1,68 @@
+<a href="link">name</a> - anchor tab 
+<image src="" alt =""/> - image
+<h1,h2,h3,h4,h5,h6> heading </h1,h2,h3,h4,h5,h6>
+<p>paragraph</p>
+<i>italic</i>
+<b>bold</b>
+<u>underline</u>
+<br/> next line 
+<hr/> line draw ka liya 
+<big></big>
+<snall></small>
+<subsscript></subsscript> -eg h2o,c6h6
+<superscript></supercript> -2^2
+<pre></pre> tag used change in paragraph ,line additional changes 
+<header></header>
+<main></main>
+<footer></footer>
+<section><section>- ya sirf code acha dekhana ka liya hota hai 
+eg experience, education etc
+<article></article>-eg my story basis 
+<aside></aside> -the not link with site but it work for an ads
+<a href ="link name" target="_main">name</a>-target main means a new tab 
+<a href ="link name" target="_main"><image src="link" alt ="name"/ ></a>
+<div></div> - meaning text we have wright take full area external area included
+<span></span>-meaning text have area only that area include surrounded area include not happen
+ther are two types list ordered  or unordered list 
+ordered 
+<ol>
+<li></li>
+</ol> - ismae 1,2,3 numeric numbers were come 
+<ul>
+<li></li> isma bullets were display 
+</ul>
+tag <ol type="">
+<tr></tr>-table row
+<td></td>-table data 
+<th></th>-table header
+<table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td></td>
+<tr>
+</table>
+<callspan></callspan>-merging a cell
+<form></form>
+how to input
+<input type="" placeholder="">
+how to make option 
+<input type="radio" value ="information for code for storing" 
+class="placeholder">represent on website area
+<label for=""></label>- were we can tap it will click it and label not use it  can only click only hole
+// we can use id in main code where can wriiten in  code.
+class&id 
+<div id ="id1" class="group1" /div>
+same code for checkbox (radio) replace a name 
+in checkbox we can use select multiple option.
+textarea
+<label for="feedback") 
+<textarea name="feedback" placeholder="">feedback</textarea>
+<select name="">
+<option value="">  </option>
+</select>
+
+
+
+
