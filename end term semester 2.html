@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fahrenheit to Celsius Converter</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Fahrenheit to Celsius Converter</h2>
+
+        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit">
+
+        <button onclick="convertTemp()">Convert</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function convertTemp() {
+
+            let fahrenheit =
+                document.getElementById("fahrenheit").value;
+
+            let celsius =
+                (fahrenheit - 32) * 5 / 9;
+
+            document.getElementById("result").innerHTML =
+                "Celsius = " + celsius.toFixed(2) + " °C";
+        }
+    </script>
+
+</body>
+</html>
